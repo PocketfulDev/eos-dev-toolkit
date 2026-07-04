@@ -1,0 +1,6 @@
+{
+  "name": "eos-baas",
+  "version": "0.1.0",
+  "description": "Integration skills for eOS Banking-as-a-Service partners — partner auth, request signing, webhooks, and API workflows.",
+  "author": { "name": "eOS Developer Platform" }
+}

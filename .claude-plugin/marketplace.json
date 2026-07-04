@@ -1,0 +1,16 @@
+{
+  "name": "eos-dev-toolkit",
+  "owner": { "name": "eOS Developer Platform" },
+  "plugins": [
+    {
+      "name": "eos-bank",
+      "source": "./plugins/eos-bank",
+      "description": "Integration skills for building on the eOS bank platform (accounts, deposits, loans) — auth, webhooks, and API workflows for coding agents."
+    },
+    {
+      "name": "eos-baas",
+      "source": "./plugins/eos-baas",
+      "description": "Integration skills for eOS Banking-as-a-Service partners (embedded accounts and payments) — partner auth, request signing, webhooks, and API workflows for coding agents."
+    }
+  ]
+}

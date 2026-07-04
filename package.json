@@ -1,0 +1,11 @@
+{
+  "name": "eos-dev-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "eOS developer toolkit — Claude Code plugins with integration skills for coding agents.",
+  "scripts": {
+    "test": "node --test",
+    "sync": "node scripts/sync-product-skills.mjs"
+  }
+}

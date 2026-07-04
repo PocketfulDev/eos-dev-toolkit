@@ -19,3 +19,5 @@ Each plugin ships hand-authored core skills (auth, webhooks, API) plus one auto-
 ## Product skills are generated
 
 `plugins/eos-*/skills/products/**` is generated from the eOS docs pipeline and refreshed by `scripts/sync-product-skills.mjs` (run in CI via `.github/workflows/sync-product-skills.yml`). Do not hand-edit those files.
+
+The CI workflow's auto-PR step requires repo/org setting Settings -> Actions -> General -> "Allow GitHub Actions to create and approve pull requests" to be ON, otherwise PR creation 403s.

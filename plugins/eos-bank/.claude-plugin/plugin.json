@@ -2,5 +2,6 @@
   "name": "eos-bank",
   "version": "0.1.0",
   "description": "Integration skills for building on the eOS bank platform — auth, webhooks, and API workflows.",
-  "author": { "name": "eOS Developer Platform" }
+  "author": { "name": "eOS Developer Platform" },
+  "skills": ["./skills/products"]
 }

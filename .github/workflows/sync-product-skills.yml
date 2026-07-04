@@ -1,5 +1,11 @@
 name: Sync product skills
 
+# Prerequisite: the "Open PR if product skills changed" step below uses
+# peter-evans/create-pull-request, which needs the repo/org setting
+# Settings -> Actions -> General -> "Allow GitHub Actions to create and
+# approve pull requests" turned ON. If it's off, PR creation 403s and the
+# sync still runs but no PR is opened.
+
 on:
   workflow_dispatch:
   schedule:

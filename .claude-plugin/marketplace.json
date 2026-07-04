@@ -1,5 +1,6 @@
 {
   "name": "eos-dev-toolkit",
+  "description": "eOS developer toolkit — Claude Code plugins with integration skills for coding agents.",
   "owner": { "name": "eOS Developer Platform" },
   "plugins": [
     {

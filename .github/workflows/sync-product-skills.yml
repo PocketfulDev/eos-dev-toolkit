@@ -10,6 +10,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 6 * * *" # daily 06:17 UTC
+  # Fired by esh_documentation_assets' build-and-deploy workflow after a
+  # successful deploy, so the sync runs on every deploy instead of waiting
+  # for the daily cron.
+  repository_dispatch:
+    types: [skills-updated]
 
 permissions:
   contents: write

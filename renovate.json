@@ -1,13 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
-  "packageRules": [
-    {
-      "matchManagers": ["github-actions"],
-      "minimumReleaseAge": "7 days",
-      "pinDigests": true,
-      "automerge": false,
-      "labels": ["dependencies", "github-actions"]
-    }
-  ]
+  "extends": ["github>PocketfulDev/internal-github-actions"]
 }
